@@ -3,15 +3,11 @@ loaderWrapper.style.display = 'flex';
 
 let body = document.querySelector('body');
 
-console.log(3);
-
-
 window.onload = function () {
-    console.log(2);
 
     const intro = document.querySelector('.intro');
     const video = intro.querySelector('video');
-    const text = intro.querySelector('h1');
+    const text = intro.querySelector('main');
 //END SECTION
     const section = document.querySelector('section');
     const end = section.querySelector('h2');
@@ -54,9 +50,6 @@ window.onload = function () {
 
         video.currentTime = delay;
     }, 33.3);
-
-
-
 
     body.style.overflowY = 'scroll';
     loaderWrapper.style.display = 'none';
